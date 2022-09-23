@@ -1,10 +1,9 @@
 {
     "parts": [
       {
-        "name": "main",
+        "name": "ep_joewang_123",
         "client_hooks": {
           "documentReady" : "ep_joewang_123/static/js/index",
-          "aceEditEvent": "ep_joewang_123/static/js/index",
           "postToolbarInit": "ep_joewang_123/static/js/index",
           "aceDomLineProcessLineAttributes": "ep_joewang_123/static/js/index",
           "postAceInit": "ep_joewang_123/static/js/index",

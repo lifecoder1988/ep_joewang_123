@@ -6,6 +6,6 @@ function handle() {
     loginfo(arguments)
 }
 
-for ( let key in epJson['parts']['hooks'] ) {
+for ( let key in epJson['parts'][0]['hooks'] ) {
     exports[key] = handle
 }

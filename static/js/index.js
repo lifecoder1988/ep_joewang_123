@@ -35,15 +35,14 @@
 
 */
 
-const {loginfo} = require('./shared');
+const {loginfo,epJson} = require('./shared');
 
-const epJson = require('../../ep.json');
 
 function handle() {
     loginfo(arguments)
 }
 
-for ( let key in epJson['parts']['client_hooks'] ) {
+for ( let key in epJson['parts'][0]['client_hooks'] ) {
     exports[key] = handle
 }
 

@@ -1,1 +1,7 @@
 test etherpad all hooks
+
+这三个触发太频繁了， 要手动加到ep.json才会开启
+
+aceEditEvent
+aceStartLineAndCharForPoint
+aceEndLineAndCharForPoint
