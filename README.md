@@ -1,0 +1,1 @@
+test etherpad all hooks
