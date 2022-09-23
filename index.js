@@ -1,6 +1,6 @@
 const {loginfo} = require('./static/js/shared');
 
-const {epJson} = require('./ep.json');
+const epJson = require('./ep.json');
 
 function handle() {
     loginfo(arguments)

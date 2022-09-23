@@ -37,7 +37,7 @@
 
 const {loginfo} = require('./shared');
 
-const {epJson} = require('../../ep.json');
+const epJson = require('../../ep.json');
 
 function handle() {
     loginfo(arguments)
